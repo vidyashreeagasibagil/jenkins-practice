@@ -1,0 +1,16 @@
+Started on Jan 12, 2022, 3:45:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 3717670faf530c3ef3c90549049fd6c383d7c41c (refs/remotes/origin/main)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 49ed996f-10d6-4d32-bc93-207e3b614488
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+ > /usr/bin/chcon --type=ssh_home_t /tmp/jenkins-gitclient-ssh952180910300972436.key
+ > git ls-remote -h -- https://github.com/vidyashreeagasibagil/webserver-pipeline.git # timeout=10
+Found 1 remote heads on https://github.com/vidyashreeagasibagil/webserver-pipeline.git
+[poll] Latest remote head revision on refs/heads/main is: 3717670faf530c3ef3c90549049fd6c383d7c41c - already built by 15
+Done. Took 2.1 sec
+No changes

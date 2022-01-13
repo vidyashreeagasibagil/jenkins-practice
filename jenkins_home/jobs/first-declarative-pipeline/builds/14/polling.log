@@ -1,0 +1,14 @@
+Started on Dec 28, 2021, 10:46:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision d47bbeb32703d9ca06261f34959d752cc172c13c (refs/remotes/origin/main)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 3cbc3502-bfc6-4d6a-aa34-1fd373437ce5
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/vidyashreeagasibagil/webserver-pipeline.git # timeout=10
+Found 1 remote heads on https://github.com/vidyashreeagasibagil/webserver-pipeline.git
+[poll] Latest remote head revision on refs/heads/main is: 3717670faf530c3ef3c90549049fd6c383d7c41c
+Done. Took 1.2 sec
+Changes found

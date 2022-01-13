@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1145.v7f2433caa07f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>vidya</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@552.vd9cc05b8a2e1">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>58</queueId>
+  <timestamp>1641975007401</timestamp>
+  <startTime>1641975007421</startTime>
+  <result>SUCCESS</result>
+  <duration>2608</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node{
+    stage(&quot;GIT&quot;){
+        println &quot;git running&quot;
+    }
+    stage(&quot;BUILD&quot;){
+        println &quot;build running&quot;
+    }
+    stage(&quot;Deploy&quot;){
+        println &quot;deploying proj&quot;
+    }
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>550288243</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>7205803</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1025357546</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>87776884</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>274855368</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>22</iota>
+    <head>1:22</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>
