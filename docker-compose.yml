@@ -19,6 +19,8 @@ services:
       context: centos7
     networks:
       - net
+    volumes:
+      - "$PWD/aws-s3.sh:/tmp/script.sh"
   db_host:
     container_name: db
     image: mysql:5.7
