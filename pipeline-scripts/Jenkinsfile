@@ -20,7 +20,7 @@ pipeline{
     stage('Push'){
       steps{
         sh '''
-           echo push
+           ./jenkins/push/push.sh
            '''
       }
     }
